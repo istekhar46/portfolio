@@ -68,7 +68,7 @@ export default function Home() {
               Full Stack Web Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              "Full stack web developer with a passion for creating seamless user experiences. Proficient in both front-end and back-end technologies, adept at crafting robust and dynamic web applications. Dedicated to continuous learning and staying at the forefront of industry trends."
+              Full stack web developer with a passion for creating seamless user experiences. Proficient in both front-end and back-end technologies, adept at crafting robust and dynamic web applications. Dedicated to continuous learning and staying at the forefront of industry trends.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a target="_blanck" href="https://twitter.com/istekharkhan46"><AiFillTwitterCircle /></a>
@@ -76,7 +76,7 @@ export default function Home() {
               <a target="_blanck" href="https://www.linkedin.com/in/istekhar46/"><AiFillLinkedin /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover"alt="image"/>
             </div>
           </div>
         </section>
@@ -84,7 +84,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">open to work</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              "Crafting digital experiences through full-stack mastery. Open for opportunities."
+              Crafting digital experiences through full-stack mastery. Open for opportunities.
               {/* <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span> */}
               Innovative web solutions curated with code and design. Ready for new ventures.Explore my work.
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="image" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Frontend
               </h3>
@@ -110,12 +110,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="image" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Backend
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Techonologies I Use</h4>
