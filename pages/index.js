@@ -4,7 +4,6 @@ import {
   AiFillLinkedin,
   AiFillGithub
 } from "react-icons/ai";
-AiFillGithub
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
@@ -76,7 +75,7 @@ export default function Home() {
               <a target="_blanck" href="https://www.linkedin.com/in/istekhar46/"><AiFillLinkedin /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover"alt="image"/>
+              <Image src={deved} layout="fill" objectFit="cover" alt="image" />
             </div>
           </div>
         </section>
