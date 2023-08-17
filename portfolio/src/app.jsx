@@ -1,4 +1,5 @@
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 
 export function App() {
@@ -6,6 +7,7 @@ export function App() {
 
   return (
     <>
+    {/* <Navbar/> */}
       <Home/>
     </>
   )

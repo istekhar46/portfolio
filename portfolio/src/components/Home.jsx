@@ -21,7 +21,7 @@ const Home = () => {
               <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
                 Istekhar khan
               </h2>
-              <h3 className="text-2xl py-2 md:text-3xl " style={{color:'black'}}>
+              <h3 className="text-2xl py-2 md:text-3xl ">
                 Full Stack Web Developer.
               </h3>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
@@ -73,7 +73,7 @@ const Home = () => {
             <div className="lg:flex gap-10">
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
                 <img src={design} width={100} height={100} alt="image" className="m-auto" />
-                <h3 className="text-lg font-medium pt-8 pb-2  ">Frontend</h3>
+                <h3 className="text-2xl font-medium pt-8 pb-2 text-black">Frontend</h3>
                 <p className="py-2 text-black">
                   Creating elegant designs suited for your needs following core
                   design theory.
@@ -86,7 +86,7 @@ const Home = () => {
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
                 <img src={code} width={100} height={100} alt="image" className="m-auto" />
-                <h3 className="text-lg font-medium pt-8 pb-2 ">Backend</h3>
+                <h3 className="text-2xl font-medium pt-8 pb-2 text-black">Backend</h3>
                 <p className="py-2 text-black">
                   Do you have an idea for your next great website? Let&apos;s
                   make it a reality.
