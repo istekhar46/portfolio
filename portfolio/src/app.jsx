@@ -1,5 +1,4 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Layout from "./Layout/Layout";
 
 
 export function App() {
@@ -7,8 +6,7 @@ export function App() {
 
   return (
     <>
-    {/* <Navbar/> */}
-      <Home/>
+    <Layout/>
     </>
   )
 }
