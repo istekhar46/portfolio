@@ -1,6 +1,7 @@
 import { render } from "preact";
 import { App } from "./app";
 import "./index.css";
+import "./app.css";
 import { BrowserRouter } from "react-router-dom";
 
 render(

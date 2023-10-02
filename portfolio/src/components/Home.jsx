@@ -15,9 +15,8 @@ const Home = () => {
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="grid grid-cols-5">
-          {/* <div className="text-center p-10 py-10"> */}
-          <div className="col-span-3 flex flex-col items-center justify-center">
+        <section className="grid lg:grid-cols-5">
+          <div className="lg:col-span-3 flex flex-col items-center justify-center">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Istekhar khan
             </h2>
@@ -32,7 +31,7 @@ const Home = () => {
               forefront of industry trends.
             </p>
           </div>
-          <div className="col-span-2 mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <div className="lg:col-span-2 mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <img
               src={dp}
               alt=""
@@ -41,27 +40,29 @@ const Home = () => {
               className="m-auto"
             />
           </div>
-          {/* </div> */}
         </section>
         <section>
           <div className="text-center">
-            <h3 className="text-3xl py-1 dark:text-white ">open to work</h3>
+            <h3 className="text-3xl py-1 font-bold text-teal-400">
+              Open to work
+            </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Crafting digital experiences through full-stack mastery. Open for
-              opportunities.
-              {/* <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span> */}
-              Innovative web solutions curated with code and design. Ready for
-              new ventures.Explore my work.
+              opportunities. Innovative web solutions curated with code and
+              design. Ready for new ventures.Explore my work.
             </p>
             <p className="text-md  tex py-2 leading-8 text-gray-800 dark:text-gray-200">
               I possess comprehensive proficiency in various cutting-edge
               technologies, including the{" "}
-              <span className="text-teal-500"> MERN stack</span>, bolstered by
-              additional expertise in <span className="text-emerald-500"> TypeScript, PostgreSQL, Tailwind CSS,
-              MaterialUI, Redux Toolkit</span> and more. My skill set encompasses a
-              wide spectrum of modern tools, allowing me to craft sophisticated
-              and efficient solutions.
+              <span className="text-teal-500"> MERN Stack</span>, bolstered by
+              additional expertise in{" "}
+              <span className="text-emerald-500 font-semibold">
+                {" "}
+                TypeScript, PostgreSQL, Tailwind CSS, MaterialUI, Redux Toolkit,
+                Vite-Toolkit
+              </span>{" "}
+              and more. My skill set encompasses a wide spectrum of modern
+              tools, allowing me to craft sophisticated and efficient solutions.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -80,12 +81,24 @@ const Home = () => {
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className="py-4 text-teal-500 font-bold">Techonologies I Use</h4>
-              <p className="text-gray-800 py-1">JavaScript/TypeScript</p>
-              <p className="text-gray-800 py-1">React with vite</p>
-              <p className="text-gray-800 py-1">Tailwind CSS</p>
-              <p className="text-gray-800 py-1">Meterial UI</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-500 font-bold">
+                Techonologies I Use
+              </h4>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                JavaScript/TypeScript
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                React with vite
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                Tailwind CSS
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                Meterial UI
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                Figma
+              </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <img
@@ -102,13 +115,30 @@ const Home = () => {
                 Do you have an idea for your next great website? Let&apos;s make
                 it a reality.
               </p>
-              <h4 className="py-4 font-bold text-teal-500">Techonologies I Use</h4>
-              <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">Express.js</p>
-              <p className="text-gray-800 py-1">PostgreSQL</p>
-              <p className="text-gray-800 py-1">MongoDB</p>
-              <p className="text-gray-800 py-1">Bun (Exploring)</p>
+              <h4 className="py-4 font-bold text-teal-500">
+                Techonologies I Use
+              </h4>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                Node.js
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                Express.js
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                PostgreSQL
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                MongoDB
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                Bun (Exploring)
+              </p>
             </div>
+          </div>
+        </section>
+        <section className="h-[40vh]">
+          <div className="my-[30%] text-center">
+            Projects
           </div>
         </section>
       </main>
