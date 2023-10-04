@@ -18,7 +18,7 @@ const Home = () => {
         <section className="grid lg:grid-cols-5">
           <div className="lg:col-span-3 flex flex-col items-center justify-center">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Istekhar khan
+              Istekhar Khan
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl ">
               Full Stack Web Developer.
@@ -54,7 +54,7 @@ const Home = () => {
             <p className="text-md  tex py-2 leading-8 text-gray-800 dark:text-gray-200">
               I possess comprehensive proficiency in various cutting-edge
               technologies, including the{" "}
-              <span className="text-teal-500"> MERN Stack</span>, bolstered by
+              <span className="text-teal-500 font-bold"> MERN Stack</span>, bolstered by
               additional expertise in{" "}
               <span className="text-emerald-500 font-semibold">
                 {" "}
@@ -82,7 +82,7 @@ const Home = () => {
                 design theory.
               </p>
               <h4 className="py-4 text-teal-500 font-bold">
-                Techonologies I Use
+                Technologies I Use
               </h4>
               <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
                 JavaScript/TypeScript
@@ -116,19 +116,19 @@ const Home = () => {
                 it a reality.
               </p>
               <h4 className="py-4 font-bold text-teal-500">
-                Techonologies I Use
+                Technologies I Use
               </h4>
-              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
-                Node.js
-              </p>
               <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
                 Express.js
               </p>
               <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
-                PostgreSQL
+                Node.js
               </p>
               <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
                 MongoDB
+              </p>
+              <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
+                PostgreSQL
               </p>
               <p className="text-gray-800 py-1 hover:text-teal-500 font-semibold cursor-pointer">
                 Bun (Exploring)
